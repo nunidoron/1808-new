@@ -1,6 +1,6 @@
 pipeline{
     agent any
-    stages{
+    stages{ 
         stage("execute python"){
             steps{
                 sh "python3 main.py"
